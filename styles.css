@@ -1,0 +1,19 @@
+#dev_tool_link {
+  float: right;
+}
+
+.dev_tool {
+  position: absolute;
+  right: 0;
+  top: 100px;
+  border: solid 1px black;
+  padding: 10px;
+}
+
+#message_submit_button {
+  margin-bottom: 28px;
+}
+
+.process_button {
+  margin: 0 20px;
+}

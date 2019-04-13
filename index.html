@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>WonderQ</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+
+    <h1>Welcome to WonderQ Message Broker!</h1>
+
+    <a href="" id="dev_tool_link">Show Dev Tool</a>
+    <div class="dev_tool"></div>
+
+    <div class="message_success"></div>
+
+    <p>Type Your Message Below:</p>
+    <form class="message_form">
+      <textarea name="message_field" id="message_text_field" rows="8" cols="80"></textarea>
+      <p><button type="submit" id="message_submit_button">Add Message</button></p>
+    </form>
+
+    <p>List of Messages In Your Queue:</p>
+    <ul class="processed_message_list"></ul>
+    <ul class="message_list"></ul>
+
+    <button id="message_polling_button">Poll New Messages</button>
+
+    <script src="wonderq_message_broker.js"></script>
+    <script src="index.js"></script>
+    <script src="message_generator.js"></script>
+  </body>
+</html>
