@@ -1,29 +1,13 @@
-クラス WonderQMessageBroker \{
-コンストラクタ \(\) \{
-mockDbMessageStore = \[\];
-messageId = 0;
-この timeoutSetting = 15000;
-messagesInUse = 0;
-messagesProcessed = 0;
-\};
+dingus, what
 
 newMessage\(messageContent\) \{
 mockDbMessageStore \(\{messageId: \+ \+ この. messageId,messageContent: messageContent\}\);
 この messageId を返します。
 \};
 
-pollNewMessages\(\) \{
-messageList = \[\];
-while \(この mockDbMessageStore の長さ > 0\) \{
-messageList \(mockDbMessageStore \(\) を押します。
-messagesInUse \+ \+;
-\};
-messageList を返す;
-\};
+you thought wrong
 
-readdTimedOutMessages\(messageList\) \{
-この messagesInUse\-= messageList の長さ;mockDbMessageStore = この. mockDbMessageStore \(messageList\);
-\};
+think about ittake a second
 
 getTimeoutSetting\(\) \{
 この timeoutSetting を返します。
