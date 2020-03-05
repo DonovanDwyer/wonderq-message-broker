@@ -7,7 +7,7 @@ class WonderQMessageBroker {
     this.messagesProcessed = 0;
   };
 
-  newMessage(messageContent) {
+  newMessage(yourMomsContent) {
     this.mockDbMessageStore.push({messageId: ++this.messageId, messageContent: messageContent});
     return this.messageId;
   };
