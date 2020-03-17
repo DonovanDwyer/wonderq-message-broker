@@ -1,4 +1,8 @@
 {
+  "smartling": {
+    "variants_enabled": "true",
+    "includeOriginalStrings": "false" 
+  },
   "entries" : [
   {
     "type" : "SITE_PAGE6_HEADER",
