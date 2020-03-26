@@ -1,7 +1,7 @@
 {
-  "smartling": {
-    "variants_enabled": "true",
-    "includeOriginalStrings": "false" 
+  "smartling" : {
+    "variants_enabled" : "true",
+    "includeOriginalStrings" : "false"
   },
   "entries" : [
   {
@@ -70,7 +70,7 @@
 
   {
     "type" : "SITE_PAGE_HEADER",
-    "term" : "i will sue",
+    "term" : "訴えます",
     "translationNotes" : null,
     "key" : "01bd03ed-457d-4888-bf5d-a8b0cd28e95b",
     "anchor" : "NO_ANCHOR"
@@ -174,9 +174,9 @@
 
   {
     "type" : "SITE_PAGE_HEADER",
-    "term" : "child, please.",
+    "term" : "子供、お願いします。",
     "translationNotes" : null,
     "key" : "0345955d-0bcd-4dc6-8b39-d36b861309a6",
     "anchor" : "NO_ANCHOR"
- }]
+  }]
 }
