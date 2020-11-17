@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    
+    <title>WonderQ</title>
+    <link rel="stylesheet" href="styles.css">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+</head>
+  <body>
+
+    <h1>Welkom by WonderQ Message Broker!</h1>
+
+    <a href="" id="dev_tool_link">Wys Dev Tool</a>
+    <div class="dev_tool"></div>
+
+    <div class="message_success"></div>
+
+    <p>Tik u boodskap hieronder in:</p>
+    <form class="message_form">
+      <textarea name="message_field" id="message_text_field" rows="8" cols="80"></textarea>
+      <p><button type="submit" id="message_submit_button">Voeg boodskap by</button></p>
+    </form>
+
+    <p>Lys van boodskappe in u ry:</p>
+    <ul class="processed_message_list"></ul>
+    <ul class="message_list"></ul>
+
+    <button id="message_polling_button">Poll Nuwe boodskappe</button>
+
+    <script src="wonderq_message_broker.js"></script>
+    <script src="index.js"></script>
+    <script src="message_generator.js"></script>
+  </body>
+</html>
