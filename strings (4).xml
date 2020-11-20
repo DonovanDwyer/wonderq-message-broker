@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- u test me -->
 <resources>
     <string name="ellipsis_more"> ... more </string>
     <string name="no_address_with_project">No address associated with this project</string>
@@ -155,4 +154,5 @@
     <string name="ui_hour">hour</string>
     <string name="ui_min">min</string>
     <string name="go_to_settings">Go to settings</string>
+    <string name="no u">No U</string>
 </resources>
