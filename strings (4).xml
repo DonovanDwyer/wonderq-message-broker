@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- tester -->
 <resources>
     <string name="ellipsis_more"> ... more </string>
     <string name="no_address_with_project">No address associated with this project</string>
